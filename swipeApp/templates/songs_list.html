@@ -1,0 +1,16 @@
+
+<body>
+    <div class="sidebar">
+        <h2>Song List</h2>
+        <ul>
+            {% for song in songs %}
+            <li>{{ song.title }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="content">
+        <h2>Music Player</h2>
+        <p>Select a song from the sidebar to play.</p>
+    </div>
+</body>
+</html>
